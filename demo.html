@@ -1,0 +1,200 @@
+<!-- HTML 5 Demo code-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>HTML Complete Course</title>
+    <link rel="icons" type="image/x-icons" href="">
+    <link rel="stylesheet" type="text/css" href="">
+    <meta http-equiv="refresh" content="90">
+</head>
+
+<body>
+    <!-- Layout Tags -->
+    <article>Article Tag</article>
+    <aside>Aside Tag</aside>
+    <footer>Footer Tag</footer>
+    <header>Header Tag</header>
+    <main>Main Tag</main>
+    <nav>Navigation Tag</nav>
+    <section>Section Tag</section>
+    <dialog>Dialog Tag</dialog>
+
+    <!-- Table Tags -->
+    <table>
+        <caption>Caption Tag</caption>
+        <colgroup span="2" width="30">
+            <col align="center">
+            <col style="background-color: aqua;">
+            <col width="30">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Table Data 1</td>
+                <td>Table Data 2</td>
+                <td>Table Data 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Table Data 1</td>
+                <td>Table Data 2</td>
+                <td>Table Data 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- List Tags -->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol>
+
+    <dl>
+        <dt>Defination Team</dt>
+        <dd>Defination Description</dd>
+    </dl>
+
+    <!-- Image Tag -->
+    <figure>
+        <figcaption>Image Caption</figcaption>
+        <img src="" alt="" title="" id="" class="" style="width: 100; height: 100;" width="100" height="100"
+            loading="lazy" usemap="#imgmap">
+        <map name="imgmap">
+            <area alt="clickable area" href="" shape="circle" coords="50 50 30" target="_blank" download="">
+        </map>
+    </figure>
+
+    <!-- Audio Tag -->
+    <audio controls autoplay loop muted preload="auto" volume="0.7">
+        <source src="" type="audio/mp3">
+        <source src="" type="audio/m4a">
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+    </audio>
+
+    <!-- Video Tag -->
+    <video controls autoplay loop muted preload="auto" poster="" volume="0.8" width="" height="">
+        <source src="video.mp4" type="video/avi" />
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.webm" type="video/webm" />
+        <track kind="subtitles" src="subtitles-en.vtt" srclang="en" label="English" default>
+        <track kind="subtitles" src="subtitles-es.vtt" srclang="es" label="Spanish">
+        <track kind="captions" src="captions-fr.vtt" srclang="fr" label="French">
+    </video>
+
+    <!-- Form Tag -->
+    <form action="" method="get/post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Registeration Form</legend>
+            <label for="username">User Name: </label>
+            <input type="text" id="username" name="username" class="username" value="Admin"
+                title="Enter the user name using alphabets alone" placeholder="Enter the username" size="20"
+                maxlength="20" required autofocus autocomplete="off" pattern="[A-Za-z]+" style="color: aqua;"><br>
+
+            <label for="pasword">Password: </label>
+            <input type="password" id="password" class="password" name="password" value="" style="color: aqua;"
+                title="Enter the password with atleast one characters of uppercase and lowercase, one number, one symbles"
+                placeholder="Enter the password" size="10" maxlength="8" required autofocus autocomplete="off"
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$"><br>
+
+            <label for="date">Today Date:</label>
+            <input type="date" id="date" class="date" name="date" value="" min="2000-01-01" max="2023-10-16" size="10"
+                maxlength="10" title="Enter the Date" placeholder="yyyy-mm-dd" required autofocus autocomplete="0ff"
+                pattern="{4}\-{2}\-{2}"><br>
+
+            <label for="time">Current Time: </label>
+            <input type="time" id="time" class="time" name="time" value="12:00" min="09:00" max="09:00" step="900"
+                title="Enter the time value" placeholder="Enter the time" required autofocus autocomplete="off"><br>
+
+            <label for="week">Current Week: </label>
+            <input type="week" id="week" class="week" name="week" value="" min="2023-w1" max="2023-w52" step=""
+                title="Enter current week" placeholder="Enter the Week" required autofocus autocomplete="off"><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" class="email" name="email" value="" title="Enter your active email address"
+                placeholder="Enter the email address" required autofocus autocomplete="off" pattern=""><br>
+
+            <label for="file">File upload: </label>
+            <input type="file" id="file" class="file" nmae="file" accept="jpg, jpeg, png"><br>
+
+            <label for="url">URL Id: </label>
+            <input type="url" id="url" class="url" name="url" value="www.example.com"
+                title="Enter your linkin url to know your details" placeholder="Enter the linkin url"><br>
+
+            <label for="search">Search value: </label>
+            <input type="search" id="search" class="search" name="search" value="" title="Enter the search items"
+                placeholder="Search......" result="5" size="30" maxlength="100"><br>
+
+            <label for="number">No of Quality: </label>
+            <input type="number" id="number" class="number" name="number" value="5"
+                title="Enter the no of quality you have" placeholder="Enter no of quality" min="0" max="100" step="1"
+                required autofocus autocomplete="off"><br>
+
+            <label for="color">Color: </label>
+            <input type="color" id="color" class="color" name="color" value="#ff0000"
+                title="Choose your favorite color"><br>
+
+            <label for="range">Enter the rating in range of 10</label>
+            <input type="range" id="range" class="range" name="range" value="2" min="0" max="10" step="2"
+                list="rangevalue">
+            <datalist id="rangevalue">
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+            </datalist><br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" class="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" class="female" name="gender" value="female"><br>
+
+            <label for="acceptance">If you have provide the above information correctly checkout the checkbox</label>
+            <input type="checkbox" id="acceptance" class="acceptance" name="acceptance" value="yes">
+
+            <select name="city">
+                <optgroup label="Tamilnadu">
+                    <option value="Tirunelveli">Tirunelveli</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="CHennai">Chennai</option>
+                </optgroup>
+                <optgroup label="Karanataka">
+                    <option value="Hosur">Hosue</option>
+                    <option value="Mysore">Mysore</option>
+                    <option value="	Mangalore"> Mangalore</option>
+                </optgroup>
+            </select>
+
+            <details>
+                <summary>Click her to see you luck</summary>
+                <p>Today there is no luck waiting at you door steps</p>
+            </details>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>

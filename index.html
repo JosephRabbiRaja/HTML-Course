@@ -1,0 +1,230 @@
+<!-- HTML Concepts Sample Code-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>HTML 5 Concept</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <meta http-equiv="refresh" content="60">
+</head>
+
+<body>
+
+    <!-- Layout design -->
+    <article>Article</article>
+    <aside>Aside</aside>
+    <header>Header</header>
+    <footer>Footer</footer>
+    <main>Main</main>
+    <nav>Nav</nav>
+    <section>Section</section>
+    <dialog>Dialog</dialog>
+    <canvass>Canvas</canvass>
+
+    <!-- Table Tags -->
+    <table>
+        <caption>Caption</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Unordered List -->
+    <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ol>
+
+    <!-- Defination List -->
+    <dl>
+        <dt>Defination Term</dt>
+        <dd>Defination Description</dd>
+    </dl>
+
+    <!-- Image Tag -->
+    <figure>
+        <figcaption>Images</figcaption>
+        <img title="" alt="" src="" width="" height="" loading="eager" style="width: 100px; height: 100px;"
+            usemap="#imgmap">
+        <map name="imgmap">
+            <area shape="circle" coords="" download="" href="" target="" alt="">
+        </map>
+    </figure>
+
+    <!-- Audion tag -->
+    <audio controls autoplay muted loop preload="auto" volume="0.7">
+        <source src="" type="audio/mp3, m4a, avi, ogg">
+    </audio>
+
+    <!-- Video tag -->
+    <video controls autoplay loop muted volume="0.7" preload="auto" poster="" width="" height="">
+        <source src="" type="">
+        <track kinda="subtitles" src="" srclang="en" default>
+    </video>
+
+    <!-- Button Tag -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reser</button>
+    <button type="button">Button</button>
+    <button id="" class="" onclick=""> Onclcik </button>
+
+    <!-- Input Tag -->
+
+    <form action="submit.php" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+        </fieldset>
+    </form>
+
+    <!-- Text input -->
+    <input type="text" id="" class="" name="" value="" placeholder="" size="" maxlength="" required autofocus
+        autocomplete="off" pattern="" title="">
+
+    <!-- Password input -->
+    <input type="password" id="" class="" name="" value="" placeholder="" size="" maxlength="" required autofocus
+        autocomplete="off" pattern="" title="">
+
+    <!-- Email input -->
+    <input type="email" id="" class="" name="" placeholder="" size="" maxlength="" required autofocus autocomplete="off"
+        pattern="" title="">
+
+    <!-- Number input -->
+    <input type="number" id="" class="" name="" value="" step="1" min="1" max="100" size="" required autofocus
+        autocomplete="off" pattern="" title="">
+
+    <!-- Date input -->
+    <input type="Date" id="" class="" name="" value="" min="2022-01-01" max="2023-12-31" placeholder="yyyy-mm-dd"
+        size="" maxlength="" required autofocus autocomplete="off" pattern="" title="">
+
+    <!-- week input -->
+    <input type="week" id="" class="" name="" value="2022-w42" min="2022-w1" max="2023-w52" placeholder="" size=""
+        maxlength="" required autofocus autocomplete="off" pattern="" title="">
+
+    <!-- Time input -->
+    <input type="time" id="" class="" name="" value="12:00" min="09:00" max="18:00" step="900" placeholder="" size=""
+        maxlength="" required autofocus autocomplete="off" pattern="" title="">
+
+    <!-- Range input -->
+    <input type="range" id="" class="" name="" value="" min="0" max="100" placeholder="" size="" maxlength="" required
+        autofocus autocomplete="off" pattern="" title="" list="">
+    <datalist id="">
+        <option value="0"><time>0</time></option>
+        <option value="25"><time>25</time></option>
+        <option value="50"><time>50</time></option>
+        <option value="75"><time>75</time></option>
+        <option value="100"><time>100</time></option>
+    </datalist>
+
+    <!-- File input -->
+    <input type="file" id="" class="" name="" value="" accept="" placeholder="" size="" maxlength="" required autofocus
+        autocomplete="off" title="">
+
+    <!-- Url input -->
+    <input type="url" id="" class="" name="" value="" placeholder="" size="" maxlength="" required autofocus
+        autocomplete="off" title="">
+
+    <!-- Color input -->
+    <input type="color" id="" class="" name="" value="#000000" autofocus title="">
+
+    <!-- Search input -->
+    <input type="search" id="" class="" name="" value="" placeholder="" size="" maxlength="" result="5" autofocus
+        autocomplete="off" title="">
+
+    <!-- Radio input -->
+    <input type="radio" id="" class="" name="gender" value="male" autofocus checked>
+    <input type="radio" id="" class="" name="gender" value="female" autofocus>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="" class="" name="" autofocus checked>
+
+    <!-- Select & Option -->
+    <select id="" class="" name="" value="" autofocus multiple>
+        <optgroup label="Tamilnadu">
+            <option value="Tirunelveli">Tirunelveli</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Chennai">Chennai</option>
+        </optgroup>
+        <optgroup label="Tamilnadu">
+            <option value="Tirunelveli">Tirunelveli</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Chennai">Chennai</option>
+        </optgroup>
+    </select>
+
+    <!-- Textarea  -->
+    <textarea id="" class="" name="" placeholder="" cols="" rows="" maxlength="" autofocus autocomplete="off"
+        title=""></textarea>
+
+    <!-- details & summary -->
+    <details>
+        <summary>Click here to see you lucky number</summary>
+        <p>Your lucky number is not in your mind it's in your which make's you think clever</p>
+    </details>
+
+    <!-- Common Tags -->
+    <h1>Heading Tag 1</h1>
+    <h2>Heading Tag 2</h2>
+    <h3>Heading Tag 3</h3>
+    <h4>Heading Tag 4</h4>
+    <h5>Heading Tag 5</h5>
+    <h6>Heading Tag 6</h6>
+    <p>Paragraph Tag</p>
+    <bold>Bold Tag</bold>
+    <italic>Italic Tag</italic>
+    <u>Underline</u>
+    <strong>Strong Tag</strong>
+    <em>Emphasis Tag</em>
+    <quote>Quote</quote>
+    <blockquote>Block Quote</blockquote>
+    <address>Address</address>
+    <mark>Mark Tag</mark>
+    <abbr id="" class="" title="">Abbrevation Tag</abbr>
+    <div>Div Tag</div>
+    <span>Span Tag</span>
+    <hr>
+    <br>
+    <a id="" class="" title="" style="text-decoration: none;" target="" accesskey="" tabindex=""
+        href="https://www.google.co.in/" href="./demo.html" href="#top"
+        href="mailto:jrr@gmail.com?cc=jrabbi@gmail.com,rkkk@gmail.com&bcc=raja@gmail.com&subject=welcome%20to%20mail&body=Hello%20Good%20morning"
+        download=""></a>
+</body>
+
+</html>
